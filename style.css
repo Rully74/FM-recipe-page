@@ -12,23 +12,19 @@
 * {
     margin: 0;
     box-sizing: border-box;
-
-    /* font-family: "Young Serif", serif;
-    font-weight: 400;
-    font-style: normal; */
-
     font-family: "Outfit", sans-serif;
     color: var(--Neutral-WengeBrown);
-    /* font-weight: 400; */
+}
 
-    /* font-size: 16px; */
+html {
+    background-color: var(--Neutral-Eggshell);
 }
 
 article {
     background-color: var(--Neutral-White);
     width: 100%;
     height: auto;
-    padding: 25px;
+    padding: 35px;
 }
 
 header {
@@ -36,8 +32,8 @@ header {
 }
 
 header img {
-    width: 120%;
-    margin: -25px 0 0 -25px;
+    width: 100vw;
+    margin: -35px 0 0 -35px;
 }
 
 /* Estilos del header */
@@ -83,7 +79,7 @@ header p {
 }
 
 /* Estilos para ingredients */
-.ingredients h2{
+h2{
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-size: 28px;
@@ -114,9 +110,68 @@ header p {
 }
 
 /* Estilos para las instructions */
+.instructions ol {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
 
+.instructions ol li {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
 
+.instructions ol li::marker {
+    color: var(--Primary-Nutmeg);
+    font-weight: 700;
+}
 
+/* Estilos para nutrition */
+.nutrition {
+    margin-bottom: 40px;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.nutrition table {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.nutrition table td {
+    padding: 15px 15px 15px 20px;
+    border-bottom: 1px solid var(--Neutral-LightGrey);
+}
+
+.nutrition table td:nth-child(2){
+    font-weight: 600;
+    color: var(--Primary-Nutmeg);
+}
+
+.nutrition table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Estilos de atribución */
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    bottom: 30px;
+    width: 100%;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width:700px){
+    article {
+        width: 700px;
+        border-radius: 20px;
+        margin: 100px auto;
+    }
+
+    header img {
+        margin: 0;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
