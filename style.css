@@ -27,6 +27,7 @@ article {
     padding: 35px;
 }
 
+/* Estilos del header */
 header {
     margin-bottom: 25px;
 }
@@ -36,11 +37,10 @@ header img {
     margin: -35px 0 0 -35px;
 }
 
-/* Estilos del header */
 header h1 {
     font-family: "Young Serif", serif;
     font-weight: 400;
-    font-size: 34px;
+    font-size: 38px;
     margin: 20px 0 20px 0;
     color: var(--Neutral-DarkCharcoal);
 }
@@ -102,6 +102,7 @@ h2{
     color: var(--Primary-Nutmeg);
 }
 
+/* Estilos para el separator */
 .separator {
   border: none;
   height: 1px;
