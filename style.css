@@ -17,13 +17,104 @@
     font-weight: 400;
     font-style: normal; */
 
-    /* font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal; */
+    font-family: "Outfit", sans-serif;
+    color: var(--Neutral-WengeBrown);
+    /* font-weight: 400; */
 
     /* font-size: 16px; */
 }
+
+article {
+    background-color: var(--Neutral-White);
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+header img {
+    width: 120%;
+    margin: -25px 0 0 -25px;
+}
+
+/* Estilos del header */
+header h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 34px;
+    margin: 20px 0 20px 0;
+    color: var(--Neutral-DarkCharcoal);
+}
+
+header p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.preparationTime {
+    background-color: var(--Neutral-RoseWhite);
+    margin: 25px 0 25px 0;
+    padding: 25px 40px 25px 25px;
+    border-radius: 8px;
+}
+
+.preparationTime h3 {
+    font-weight: 600;
+    color: var(--Primary-DarkRaspberry);
+    margin-bottom: 15px;
+}
+
+.preparationTime ul {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.preparationTime ul li {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.preparationTime ul li::marker {
+    color: var(--Primary-DarkRaspberry);
+}
+
+/* Estilos para ingredients */
+.ingredients h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: var(--Primary-Nutmeg);
+}
+
+.ingredients ul {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.ingredients ul li {
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.ingredients ul li::marker {
+    color: var(--Primary-Nutmeg);
+}
+
+.separator {
+  border: none;
+  height: 1px;
+  background-color: var(--Neutral-LightGrey);
+  margin: 30px 0;
+}
+
+/* Estilos para las instructions */
+
 
 
 
