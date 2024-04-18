@@ -14,6 +14,7 @@
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
     color: var(--Neutral-WengeBrown);
+    /* transition: all 0.1s ease-in-out; */
 }
 
 html {
@@ -163,9 +164,9 @@ h2{
     color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width:700px){
+@media (min-width:769px){
     article {
-        width: 700px;
+        width: 769px;
         border-radius: 20px;
         margin: 100px auto;
     }
